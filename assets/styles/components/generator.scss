@@ -72,12 +72,43 @@
             height: 72px;
             box-shadow: 0px 0px 20px 0px rgba(24, 117, 232, 0.50);
             cursor: pointer;
+            transition: background-color 0.3s ease;
+
+            &:hover {
+                transition: scale background-color 0.3s ease;
+                scale: 0.98;
+                background-color: var(--blue-dark);
+            }
+        }
+
+        &-icon {
+            cursor: pointer;
+        }
+
+        &-reset {
+            color: var(--white);
+            font-size: 1rem;
+            border: none;
+            background-color: var(--red);
+            padding: 1rem;
+            border-radius: 1rem;
+            width: 160px;
+            height: auto;
+            box-shadow: 0px 0px 20px 0px rgba(24, 117, 232, 0.50);
+            cursor: pointer;
+
+            &:hover {
+                transition: scale background-color 0.3s ease;
+                scale: 0.98;
+                background-color: var(--red-dark);
+            }
         }
     }
 
     &__input {
         width: 148px;
         height: 72px;
+        margin-left: 1rem;
         border-radius: 16px;
         background-color: var(--white);
         border: none;
@@ -95,7 +126,7 @@
         background-color: var(--white);
         border: none;
         color: var(--blue);
-        margin: 50px;
+        margin: 50px 10px 50px 10px;
         padding: 2rem;
         font-size: 24px;
         font-weight: 700;
