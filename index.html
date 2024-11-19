@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@700&family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./assets/img/favicon.ico" type="image/x-icon">
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="./assets/style.css">
+    <script defer src="./main.js"></script>
+</head>
+<body>
+    <main class="container">
+        <div class="container__content">
+            <div class="container__info">
+                <div class="container__text">
+                    <h1 class="container__text-title">Password<span class="container__text-blue">Generator</span></h1>
+                    <div class="container__field">
+                        <label class="texto__paragraph">Amount
+                            <input class="container__input" type="number" id="amount" min="0">
+                        </label>
+                        <button class="button" id="generator">Generate</button>
+                    </div>
+                    <div class="container__field">
+                        <input class="container__password" type="text" id="password" placeholder="Password">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
