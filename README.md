@@ -6,7 +6,7 @@ This is a password generator with security validation, which shows the strength 
 
 - **[Deploy in Vercel](https://password-generator-alura.vercel.app/)**
 
-### Screenshots
+### Screenshots 📷
 
   ![desktop-design](./public/design/desktop-design.webp)
   ![desktop-active-design](./public/design/desktop-active-design.webp)
@@ -18,24 +18,24 @@ This is a password generator with security validation, which shows the strength 
 
 ## Installation 👨‍💻
 
-1. Clone this repository or download the files.
+1. Clone this repository or download the files. 📚
 
   ```bash
     git clone https://github.com/Dacardonac/password-generator-alura.git
   ```
 
-2. Navega a la carpeta del proyecto en tu terminal.
+2. Navega a la carpeta del proyecto en tu terminal. 👨‍💻
 
   ```bash
-    cd password-generator
+    cd password-generator-alura
   ```
 
-3. Install the necessary dependencies.
+3. Install the necessary dependencies. ⬇️
   ```bash
     npm install
   ```
 
-4. Execute the Project.
+4. Execute the Project. ⚙️
 
   Once the dependencies are installed, you can start the local development server with the following command:
 
