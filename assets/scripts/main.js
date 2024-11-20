@@ -10,7 +10,7 @@ let inputPassword = document.getElementById('password');
 const passwordStrength = document.getElementById('passwordStrength');
 
 const characters =
-  'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$%^"&*()+,-./:;<=>?[]_{|}~';
+  'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$%^"&*()+~';
 
 // Función para generar la contraseña
 function genaratePassword() {
@@ -87,12 +87,9 @@ function securityValidation(password) {
   } else if (mediumPattern.test(password)) {
     passwordStrength.innerText = 'Medium password';
     passwordStrength.style.color = 'orange';
-  } else if (weakPattern.test(password)) {
+  } else {
     passwordStrength.innerText = 'Weak password';
     passwordStrength.style.color = 'red';
-  } else {
-    passwordStrength.innerText = 'Password is too weak';
-    passwordStrength.style.color = 'gray';
   }
 }
 
