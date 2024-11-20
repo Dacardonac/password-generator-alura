@@ -27,6 +27,7 @@
     &__text {
         margin: 12px 0;
         display: flex;
+        justify-content: center;
         flex-direction: column;
 
         &-title {
@@ -42,6 +43,15 @@
             color: var(--blue);
             display: block;
         }
+
+        &-icon {
+            height: 1.3rem;
+            transform: translateY(4px);
+        }
+
+        &-paragraph {
+            margin: 0 0 1rem 2rem;
+        }
     }
 
     &__field {
@@ -53,7 +63,6 @@
 
         &-paragraph {
             color: var(--white);
-            font-family: 'Inter';
             font-size: 32px;
             font-style: normal;
             font-weight: 400;

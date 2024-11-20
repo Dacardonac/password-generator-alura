@@ -1,7 +1,9 @@
 let amount = document.getElementById('amount');
 let btnGenerator = document.getElementById('generator');
+let btnReset = document.getElementById('reset');
 let inputPassword = document.getElementById('password');
 const characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*()';
+
 
 
 function genaratePassword() {
@@ -22,3 +24,14 @@ function genaratePassword() {
 };
 
 btnGenerator.addEventListener('click', genaratePassword);
+
+btnReset.addEventListener('click', () => {
+  let userResponse = confirm('Are you sure you want to delete the generated password?');
+
+  if (userResponse) {
+    inputPassword.value = '';
+  }
+  else {
+    return
+  }
+});
