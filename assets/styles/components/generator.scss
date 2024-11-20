@@ -92,6 +92,12 @@
 
         &-icon {
             cursor: pointer;
+            transition: 0.3s ease;
+
+            &:hover {
+                transition: 0.3s ease;
+                scale: 0.95;
+            }
         }
 
         &-reset {
