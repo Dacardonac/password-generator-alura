@@ -4,7 +4,7 @@ This is a password generator with security validation, which shows the strength 
 
 ## Demo 🚀
 
-- []()
+- **[Deploy in Vercel](https://password-generator-alura.vercel.app/)**
 
 ### Screenshots
 
